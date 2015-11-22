@@ -1,0 +1,21 @@
+CREATE TABLE entity (
+    id           INTEGER PRIMARY KEY,
+    entPhysicalIndex            INTEGER,
+    entPhysicalDescr            STRING,
+    entPhysicalVendorType       STRING,
+    entPhysicalContainedIn      INTEGER,
+    entPhysicalClass            STRING,
+    entPhysicalParentRelPos     INTEGER,
+    entPhysicalName             STRING,
+    entPhysicalHardwareRev      STRING,
+    entPhysicalFirmwareRev      STRING,
+    entPhysicalSoftwareRev      STRING,
+	entPhysicalSerialNum      STRING,
+	entPhysicalMfgName      STRING,
+	entPhysicalModelName      STRING,
+	entPhysicalAlias      STRING,
+	entPhysicalAssetID      STRING,
+	entPhysicalIsFRU      STRING,
+	entPhysicalMfgDate      STRING,
+	entPhysicalUris      STRING
+);
